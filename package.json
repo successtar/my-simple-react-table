@@ -29,7 +29,7 @@
   "homepage": "https://github.com/successtar/simple-react-table#readme",
   "dependencies": {
     "react": "^16.8.0",
-    "react-dom": "^16.14.0"
+    "react-dom": "^16.8.0"
   },
   "devDependencies": {},
   "files": [
