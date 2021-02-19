@@ -1,5 +1,5 @@
 {
-  "name": "simple-react-table",
+  "name": "@successtar/simple-react-table",
   "version": "1.0.0",
   "description": "This is a simple package for creating table with pagination in react application",
   "source": "src/index.js",
