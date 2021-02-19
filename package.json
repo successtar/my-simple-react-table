@@ -26,8 +26,8 @@
   "bugs": {
     "url": "https://github.com/successtar/simple-react-table/issues"
   },
-  "homepage": "https://github.com/successtar/simple-react-table#readme",
-  "dependencies": {
+  "homepage": "https://successtar.github.io/simple-react-table",
+  "peerDependencies": {
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
   },
