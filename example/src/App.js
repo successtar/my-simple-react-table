@@ -8,9 +8,10 @@ import Sample5 from "./sample5/Sample5";
 
 
 
-function App() {
+function App({basename}) {
+  
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename={basename}>
       <div className="App">
         <h4 className="navb">
           <NavLink to="/sample1">
@@ -30,7 +31,7 @@ function App() {
           </NavLink>
         </h4>
         <Switch>
-          <Route path="/sample1" component={Sample1} />
+          <Route  path="/sample1" component={Sample1} />
           <Route path="/sample2" component={Sample2} />
           <Route path="/sample3" component={Sample3} />
           <Route path="/sample4" component={Sample4} />

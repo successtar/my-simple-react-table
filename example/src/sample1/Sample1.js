@@ -9,7 +9,7 @@ const Sample1 = _ => {
         <h2>
           1. Simple React Table Basic Usage 
           <small>
-            <a href="/" target="_blank" style={{float: "right", fontWeight: "bold"}}>
+            <a href="https://github.com/successtar/simple-react-table/blob/master/example/src/sample1/Sample1.js" target="_blank" style={{float: "right", fontWeight: "bold"}}>
               View Source
             </a>
           </small>

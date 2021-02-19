@@ -16,7 +16,7 @@ const Sample5 = _ => {
         <h2>
           5. Simple React Table With Column Specification, Data Format, No Search Box, and 20 Row Per Page
           <small>
-            <a href="/" style={{float: "right", fontWeight: "bold"}}>
+            <a href="https://github.com/successtar/simple-react-table/blob/master/example/src/sample5/Sample5.js" target="_blank" style={{float: "right", fontWeight: "bold"}}>
               View Source
             </a>
           </small>

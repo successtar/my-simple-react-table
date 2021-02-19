@@ -1,3 +1,7 @@
+# Simple React Table Examples
+
+The examples can be accessed online here https://successtar.github.io/simple-react-table
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

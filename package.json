@@ -7,9 +7,7 @@
   "module": "dist/simple-react-table.m.js",
   "unpkg": "dist/simple-react-table.umd.js",
   "scripts": {
-    "test": "echo 'No test specified'",
-    "build": "microbundle",
-    "dev": "microbundle watch"
+    "test": "echo 'No test specified'"
   },
   "repository": {
     "type": "git",
@@ -31,7 +29,8 @@
   },
   "homepage": "https://github.com/successtar/simple-react-table#readme",
   "dependencies": {
-    "react": "^16.8.0"
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
   },
   "devDependencies": {},
   "files": [

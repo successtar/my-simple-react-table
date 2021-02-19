@@ -9,7 +9,7 @@ const Sample2 = _ => {
         <h2>
           2. Simple React Table With Column Specification
           <small>
-            <a href="/" target="_blank" style={{float: "right", fontWeight: "bold"}}>
+            <a href="https://github.com/successtar/simple-react-table/blob/master/example/src/sample2/Sample2.js" target="_blank" style={{float: "right", fontWeight: "bold"}}>
               View Source
             </a>
           </small>

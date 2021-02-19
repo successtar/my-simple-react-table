@@ -4,9 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+/**
+ * Base URL of the website.
+ *
+ * @see https://facebook.github.io/create-react-app/docs/using-the-public-folder
+ */
+const { PUBLIC_URL } = process.env;
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App basename={PUBLIC_URL} />
   </React.StrictMode>,
   document.getElementById('root')
 );

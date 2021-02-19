@@ -96,8 +96,7 @@ const SimpleTable = ({data, columns, rowPerPage, searchBox}) => {
                           tableCol.forEach(({key, format}, j) => {
                               /* Table Columns */
                               if (format && typeof(format) === "function"){
-                                  tableData[i]['_index'] = i;
-                                  row.push(<td key={`td-${i}${j}`} style={{verticalAlign: "middle"}}>{format(tableData[i])}</td>);
+                                  row.push(<td key={`td-${i}${j}`} style={{verticalAlign: "middle"}}>{format({...tableData[i], _index: i})}</td>);
                               }
                               else if (typeof(tableData[i][key]) != "object"){
                                   row.push( <td key={`td-${i}${j}`} style={{verticalAlign: "middle"}}>{tableData[i][key]}</td>);
