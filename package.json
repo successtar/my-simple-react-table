@@ -31,7 +31,9 @@
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/preset-react": "^7.12.13"
+  },
   "files": [
     "*.d.ts",
     "src"
