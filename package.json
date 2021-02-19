@@ -1,0 +1,42 @@
+{
+  "name": "simple-react-table",
+  "version": "1.0.0",
+  "description": "This is a simple package for creating table with pagination in react application",
+  "source": "src/index.js",
+  "main": "dist/simple-react-table.js",
+  "module": "dist/simple-react-table.m.js",
+  "unpkg": "dist/simple-react-table.umd.js",
+  "scripts": {
+    "test": "echo 'No test specified'",
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/successtar/simple-react-table.git"
+  },
+  "keywords": [
+    "table",
+    "react",
+    "simple"
+  ],
+  "author": {
+    "name": "Hammed Olalekan Osanyinpeju",
+    "email": "osanyinpejuhammed35@gmail.com",
+    "url": "https://successtar.github.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/successtar/simple-react-table/issues"
+  },
+  "homepage": "https://github.com/successtar/simple-react-table#readme",
+  "dependencies": {
+    "react": "^16.8.0"
+  },
+  "devDependencies": {},
+  "files": [
+    "*.d.ts",
+    "src"
+  ],
+  "types": "simple-react-table.d.ts"
+}
