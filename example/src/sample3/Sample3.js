@@ -1,7 +1,7 @@
 import React from "react";
-import SimpleTable from "../simple-react-table"
 import {testData} from '../testData';
-import "../simple-react-table.scss"
+import SimpleTable from "@successtar/simple-react-table";
+import "@successtar/simple-react-table/dist/style.scss";
 
 const Sample3 = _ => {
 
@@ -16,7 +16,7 @@ const Sample3 = _ => {
         <h2>
           3. Simple React Table With Column Specification and Data Format
           <small>
-            <a href="https://github.com/successtar/simple-react-table/blob/master/example/src/sample3/Sample3.js" target="_blank" style={{float: "right", fontWeight: "bold"}}>
+            <a href="https://github.com/successtar/simple-react-table/blob/master/example/src/sample3/Sample3.js" target="_blank" rel="noreferrer" style={{float: "right", fontWeight: "bold"}}>
               View Source
             </a>
           </small>
