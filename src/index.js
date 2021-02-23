@@ -74,7 +74,7 @@ const SimpleTable = ({data, columns, rowPerPage, searchBox}) => {
     /* Generate Columns Titles */
     let colTitle = [];
     tableCol.forEach(({title}, i) => {
-        colTitle.push( <th key={`th-${i}`} className="border-top-0">{title}</th>)
+        colTitle.push(<th key={`th-${i}`} className="border-top-0">{title}</th>)
     });
 
 
@@ -99,7 +99,7 @@ const SimpleTable = ({data, columns, rowPerPage, searchBox}) => {
                                   row.push(<td key={`td-${i}${j}`} style={{verticalAlign: "middle"}}>{format({...tableData[i], _index: i})}</td>);
                               }
                               else if (typeof(tableData[i][key]) != "object"){
-                                  row.push( <td key={`td-${i}${j}`} style={{verticalAlign: "middle"}}>{tableData[i][key]}</td>);
+                                  row.push(<td key={`td-${i}${j}`} style={{verticalAlign: "middle"}}>{tableData[i][key]}</td>);
                               }
                           })
 

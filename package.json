@@ -3,10 +3,13 @@
   "version": "1.0.3",
   "description": "This is a simple React package for creating table with pagination and search box in react application",
   "source": "src/index.js",
-  "main": "src/index.js",
-  "module": "src/index.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
   "scripts": {
-    "test": "echo 'No test specified'"
+    "build": "rollup -c",
+    "dev": "webpack --watch",
+    "prepare": "npm run build && npm version patch",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -28,15 +31,31 @@
   },
   "homepage": "https://successtar.github.io/simple-react-table",
   "peerDependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "react": ">=16.13.0",
+    "react-dom": ">=16.13.0"
   },
-  "devDependencies": {
-    "@babel/preset-react": "^7.12.13"
+  "dependencies": {
   },
   "files": [
     "*.d.ts",
-    "src"
+    "dist"
   ],
-  "types": "simple-react-table.d.ts"
+  "types": "simple-react-table.d.ts",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-image": "^2.0.4",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "3.4.0",
+    "rollup": "^2.0.6",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-peer-deps-external": "^2.2.2",
+    "rollup-plugin-postcss": "^2.4.1",
+    "rollup-plugin-visualizer": "^3.3.1"
+  }
 }
