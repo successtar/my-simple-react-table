@@ -14,6 +14,9 @@ function App({basename}) {
     <BrowserRouter  basename={basename}>
       <div className="App">
         <h4 className="navb">
+        <code style={{float: "left", fontWeight: "normal", color: "#777"}}>
+          > npm install my-simple-react-table
+        </code>
           <NavLink to="/sample1">
             Sample 1
           </NavLink>
@@ -29,6 +32,9 @@ function App({basename}) {
           <NavLink to="/sample5" >
             Sample 5
           </NavLink>
+          <a href="https://github.com/successtar/my-simple-react-table" target="_blank" rel="noreferrer" style={{color: "green", fontWeight: "bold"}}>
+              GitHub
+            </a>
         </h4>
         <Switch>
           <Route  path="/sample1" component={Sample1} />

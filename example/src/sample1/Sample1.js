@@ -1,15 +1,16 @@
 import React from "react";
 import {testData} from '../testData';
-import SimpleTable from "@successtar/simple-react-table";
-import "@successtar/simple-react-table/dist/style.scss";
+import SimpleTable from "my-simple-react-table";
+import "my-simple-react-table/dist/style.scss";
+
 
 const Sample1 = _ => {
   return (
     <div className="App">
         <h2>
-          1. Simple React Table Basic Usage 
+          1. My Simple React Table Basic Usage 
           <small>
-            <a href="https://github.com/successtar/simple-react-table/blob/master/example/src/sample1/Sample1.js" target="_blank" rel="noreferrer" style={{float: "right", fontWeight: "bold"}}>
+            <a href="https://github.com/successtar/my-simple-react-table/blob/master/example/src/sample1/Sample1.js" target="_blank" rel="noreferrer" style={{float: "right", fontWeight: "bold"}}>
               View Source
             </a>
           </small>

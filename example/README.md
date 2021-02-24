@@ -1,6 +1,6 @@
-# Simple React Table Examples
+# My Simple React Table Examples
 
-The examples can be accessed online here https://successtar.github.io/simple-react-table
+The examples can be accessed online here https://successtar.github.io/my-simple-react-table
 
 # Getting Started with Create React App
 

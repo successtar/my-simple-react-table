@@ -227,7 +227,7 @@ const SimpleTable = ({data, columns, rowPerPage, searchBox}) => {
   );
 
   return <div className="simple-react-table">
-            <div className="table-responsive py-5" ref ={tableRef}>
+            <div className="table-responsive py-5" ref ={tableRef} style={{minHeight: "20rem"}}>
                 {
                     searchBox ? 
                         <div>

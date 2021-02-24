@@ -1,15 +1,15 @@
 import React from "react";
 import {testData} from '../testData';
-import SimpleTable from "@successtar/simple-react-table";
-import "@successtar/simple-react-table/dist/style.scss";
+import SimpleTable from "my-simple-react-table";
+import "my-simple-react-table/dist/style.scss";
 
 const Sample2 = _ => {
   return (
     <div className="App">
         <h2>
-          2. Simple React Table With Column Specification
+          2. My Simple React Table With Column Specification
           <small>
-            <a href="https://github.com/successtar/simple-react-table/blob/master/example/src/sample2/Sample2.js" rel="noreferrer" target="_blank" style={{float: "right", fontWeight: "bold"}}>
+            <a href="https://github.com/successtar/my-simple-react-table/blob/master/example/src/sample2/Sample2.js" rel="noreferrer" target="_blank" style={{float: "right", fontWeight: "bold"}}>
               View Source
             </a>
           </small>

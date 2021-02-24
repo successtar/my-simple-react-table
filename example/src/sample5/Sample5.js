@@ -1,7 +1,7 @@
 import React from "react";
 import {testData} from '../testData';
-import SimpleTable from "@successtar/simple-react-table";
-import "@successtar/simple-react-table/dist/style.scss";
+import SimpleTable from "my-simple-react-table";
+import "my-simple-react-table/dist/style.scss";
 
 const Sample5 = _ => {
 
@@ -14,9 +14,9 @@ const Sample5 = _ => {
   return (
     <div className="App">
         <h2>
-          5. Simple React Table With Column Specification, Data Format, No Search Box, and 20 Row Per Page
+          5. My Simple React Table With Column Specification, Data Format, No Search Box, and 20 Row Per Page
           <small>
-            <a href="https://github.com/successtar/simple-react-table/blob/master/example/src/sample5/Sample5.js" target="_blank" rel="noreferrer" style={{float: "right", fontWeight: "bold"}}>
+            <a href="https://github.com/successtar/my-simple-react-table/blob/master/example/src/sample5/Sample5.js" target="_blank" rel="noreferrer" style={{float: "right", fontWeight: "bold"}}>
               View Source
             </a>
           </small>
