@@ -263,10 +263,10 @@ const SimpleTable = ({data, columns, rowPerPage, searchBox}) => {
             </div>
 
             <div className="px-3 row">
-                <div className="col-sm-8">
+                <div className="col-sm">
                     <ul className="pagination pagination-sm">{items}</ul>
                 </div>
-                <div className="text-right col">
+                <div className="text-right col-sm">
                     Showing {showing} of {total} {data && data.length > total ? `(filtered from ${data.length} total)` : "" }
                 </div>
             </div>
