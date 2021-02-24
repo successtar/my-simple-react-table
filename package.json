@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/successtar/simple-react-table.git"
+    "url": "git+https://github.com/successtar/my-simple-react-table.git"
   },
   "keywords": [
     "table",
@@ -26,9 +26,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/successtar/simple-react-table/issues"
+    "url": "https://github.com/successtar/my-simple-react-table/issues"
   },
-  "homepage": "https://successtar.github.io/simple-react-table",
+  "homepage": "https://successtar.github.io/my-simple-react-table",
   "peerDependencies": {
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
@@ -45,6 +45,6 @@
     "*.d.ts",
     "dist"
   ],
-  "types": "simple-react-table.d.ts",
+  "types": "my-simple-react-table.d.ts",
   "dependencies": {}
 }
